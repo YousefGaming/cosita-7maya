@@ -97,4 +97,17 @@ channel.guild.owner.send(`<@!${channelremover.id}>
   });
 
 
+
+  client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Yousef Bot- Script By : iYmG`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : yooousef ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Anti-Cheat | Cosita Network`,"http://twitch.tv/Cosita Network")
+client.user.setStatus("dnd")
+})
+
+
 client.login(process.env.BOT_TOKEN);
